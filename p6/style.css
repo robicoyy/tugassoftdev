@@ -1,0 +1,71 @@
+form {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+form div label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form div input[type="text"],
+form div select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.btn-link a {
+    text-decoration: none;
+}
+
+.submit {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.reset {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.h3-data{
+    margin: 40px 0px 20px 20px;
+}
+
+table {
+    margin: 10px 20px 80px 20px;
+    border-collapse: collapse;
+    width: calc(100% - 40px);
+}
+
+table thead {
+    background-color: #d3cfcf;
+}
+
+table th,
+table td {
+    border: 1px solid #aaaaaa;
+    padding: 10px;
+    text-align: center;
+}
